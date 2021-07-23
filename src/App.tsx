@@ -1,16 +1,10 @@
 import React from 'react';
-import {
-  Text, TextInput
-} from 'react-native';
-
+import { SignIn } from './screens/SignIn';
 
 const App = () => {
   return (
-    <>
-    <Text>Hello World!</Text>
-    </>
+    <SignIn />
   );
 };
-
 
 export default App;
